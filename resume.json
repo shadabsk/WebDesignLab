@@ -1,0 +1,566 @@
+{
+  "basics": {
+    "email": "aiktc.shamsi@gmail.com",
+    "name": "Muhammed Salman Shamsi",
+    "phone": "Please Mail Me",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus molestiae, laborum ex facilis ipsa quam consequuntur, quidem ipsum amet sequi optio voluptate vel deserunt id provident eaque ad odit illum.",
+    "location": {
+      "city": "Thane",
+      "region": "Mumbai MetroPolitan Region(MMR)",
+      "state": "Maharashta",
+      "country": "India",
+      "countryCode": "IN"
+    }
+  },
+  "education": [
+    {
+      "institution": "Jawaharlal Nehru Technological University",
+      "area": "Computer Science and Engineering (CSE)",
+      "studyType": "Master of Technology (M.Tech.)",
+      "startDate": "2014-01-01",
+      "class": "First Class with Distinction",
+      "gpa": "78.67",
+      "endDate": "2016-01-01"
+    },
+    {
+      "institution": "Maharashta State Board of Secondary and Higher Secondary Education.",
+      "area": "Elementary Education",
+      "studyType": "X (SSC)",
+      "startDate": "2005-01-01",
+      "class": "First Class",
+      "gpa": "74.53",
+      "endDate": "2006-01-01"
+    },
+    {
+      "institution": "Maharashta State Board of Secondary and Higher Secondary Education.",
+      "area": "Vocational (Computer Sci.)",
+      "studyType": "XII (HSC)",
+      "startDate": "2006-01-01",
+      "class": "First Class with Distinction",
+      "gpa": "82.83",
+      "endDate": "2008-01-01"
+    },
+    {
+      "institution": "Maharashtra State Board of Technical Education",
+      "area": "Computer Engineering",
+      "studyType": "Diploma",
+      "startDate": "2008-01-01",
+      "class": "First Class with Distinction",
+      "gpa": "76.76",
+      "courses": [],
+      "endDate": "2010-01-01"
+    },
+    {
+      "institution": "Mumbai University",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Engineering (BE)",
+      "startDate": "2010-01-01",
+      "class": "First Class",
+      "gpa": "68.64",
+      "endDate": "2013-01-01"
+    }
+  ],
+  "skills": {
+      "languages": [
+        {
+          "name": "XML",
+          "level": "Beginner",
+          "ratings": "5"
+        },
+        {
+          "name": "Java",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "CSS",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Sass",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "MySQL",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "PHP",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "jQuery",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "JSON",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Python",
+          "level": "Beginner",
+          "ratings": "6"
+        },
+        {
+          "name": "C",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "SQL",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "React",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Redux",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "React-Native",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "NodeJS",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "MongoDB",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "AJAX",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "HTML",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "C++",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "Grunt",
+          "level": "Entry",
+          "ratings": "4"
+        },
+        {
+          "name": "Browsersync",
+          "level": "Entry",
+          "ratings": "4"
+        },
+        {
+          "name": "Typescript",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "AngularJS(1.5)",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "GraphQL",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Webpack",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Django",
+          "level": "Intermediate",
+          "ratings": "5"
+        }
+      ],
+      "os": [
+        {
+          "name": "Windows (10+ years)",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Linux Mint(3+ years)",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Ubuntu(3+ years)",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "MacOS (1 year)",
+          "level": "Professional",
+          "ratings": "6"
+        }
+      ],
+      "concepts": [
+        {
+          "name": "Databases",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Responsive Web Design",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "BEM",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "SEO",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Machine Learning",
+          "level": "Beginner",
+          "ratings": "4"
+        },
+        {
+          "name": "Data  Structure",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Programming",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "OOP",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Wireframe",
+          "level": "Beginner",
+          "ratings": "4"
+        },
+        {
+          "name": "Web Development",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "MVC Pattern",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "MVVM Pattern",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Factory Method Pattern",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Singleton Pattern",
+          "level": "Intermediate",
+          "ratings": "7"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Microsoft Word",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "phpMyAdmin",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "MySQL Workbench",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Dia",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Visual Studio Code",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "WordPress",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Sublime Text 3",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Netbeans",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "Sublime Text 3",
+          "level": "Professional",
+          "ratings": "8"
+        },
+        {
+          "name": "Atom",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "Geany",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "FireBug",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "Microsoft PowerPoint",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Microsoft Excel",
+          "level": "Intermediate",
+          "ratings": "7"
+        },
+        {
+          "name": "Git",
+          "level": "Intermediate",
+          "ratings": "6"
+        },
+        {
+          "name": "Firefox",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Google Chrome",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Internet Explorer 6+",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Safari",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Google Chrome",
+          "level": "Professional",
+          "ratings": "9"
+        },
+        {
+          "name": "Corel Draw",
+          "level": "Entry",
+          "ratings": "6"
+        },
+        {
+          "name": "Corel Photopaint",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "Adobe Illustrator",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "level": "Entry",
+          "ratings": "5"
+        },
+        {
+          "name": "FileZilla",
+          "level": "Professional",
+          "ratings": "7"
+        },
+        {
+          "name": "Corel Photopaint",
+          "level": "Entry",
+          "ratings": "5"
+        }
+      ]
+  },
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "Urdu",
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "Marathi",
+      "fluency": "Elementary"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Web development"
+    },
+    {
+      "name": " Learning new technologies"
+    },
+    {
+      "name": " Graphical Designing"
+    },
+    {
+      "name": " Social Services"
+    },
+    {
+      "name": " Educational awareness"
+    },
+    {
+      "name": " Cooking"
+    }
+  ],
+  "projects": [
+    {
+      "name": "UrbanMumbra",
+      "startDate": "2016-06-01",
+      "summary": "A survey application used for collecting geographical and demographic information for the survey of the city. This survey information is used for recommending urban planning strategy for the surveyed city.",
+      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
+      "endDate": "2016-08-01",
+      "workType":"volunteered"
+    },
+    {
+      "name": "E-Academs",
+      "startDate": "2014-12-01",
+      "summary": "E-Academs is an academic management with prediction capabilities. Currently it based on the needs of Mumbai University affiliated colleges. It uses various data mining algorithms to predict subject backlog and grades.",
+      "technology":"PHP, MYSQL, AJAX, JAVASCRIPT, JAVA, JQUERY",
+      "endDate": "2016-10-01",
+      "workType":"volunteered"
+    },
+    {
+      "name": "Virtual Classroom System",
+      "startDate": "2013-01-01",
+      "summary": "Virtual Classroom is a simulated classroom via Internet, which provides a convenient communication environment for distance learners just like traditional face-to-face classroom Technology such as virtual classroom is being increasingly popular worldwide as it is one of the efficient ways of e-learning which includes teacher as a server and learners (students) as the client.",
+      "technology":"EFRONT, PHP, MYSQL, AJAX, JAVASCRIPT, JQUERY",
+      "endDate": "2013-04-01",
+      "workType":"Academic"
+    },
+    {
+      "name": "Computer Peripheral Sales System",
+      "startDate": "2009-01-01",
+      "summary": "The project is simple sales management software built in VB 6.0. It allows searching,\nadding, deleting and inserting the product in the inventory database. It also prepares a basic invoice.",
+      "technology":"VB 6.0",
+      "endDate": "2009-04-01",
+      "workType":"Academic"
+    }
+  ],
+  "certification":[
+    {
+      "title": "Summer Training Program in Ethical Hacking",
+      "date": "2012-07-01",
+      "expiry":"NA",
+      "institute": "Wegilant Net Solutions",
+      "certificateNo":"STP-ID 1007 S.L.No. 068",
+      "grade":"NA"
+    },
+    {
+      "title": "Advanced React with Redux",
+      "date": "2017-09-04",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-YAYQNQEF",
+      "grade":"NA"
+    },
+    {
+      "title": "Modern React with Redux",
+      "date": "2017-08-23",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-UHNLO7T4",
+      "grade":"NA"
+    },
+    {
+      "title": "The Complete React Native and Redux Course",
+      "date": "2017-09-21",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-O8H2DNDK",
+      "grade":"NA"
+    },
+    {
+      "title": "The Complete Node.js Developer Course (2nd Edition)",
+      "date": "2017-10-22",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-79051T98",
+      "grade":"NA"
+    },
+    {
+      "title": "Python and Django Full Stack Web Developer Bootcamp",
+      "date": "2017-12-26",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-7UWFKR36",
+      "grade":"NA"
+    },
+    {
+      "title": "GraphQL with React: The Complete Developers Guide",
+      "date": "2018-02-06",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-VZH66IO0",
+      "grade":"NA"
+    },
+    {
+      "title": "Webpack 2: The Complete Developer's Guide",
+      "date": "2018-02-13",
+      "expiry":"NA",
+      "institute": "Udemy",
+      "certificateNo":"UC-74K0DFVZ",
+      "grade":"NA"
+    }
+  ]
+}

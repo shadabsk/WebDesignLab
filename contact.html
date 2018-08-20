@@ -3,7 +3,7 @@
 <head>
 	<title>Muhammed Salman: Reach Me</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous"> -->
 </head>
 <body>
 	<header>
@@ -30,22 +30,22 @@
 					<div>
 						Email
 					</div>
-					<input type="email" name="user-email" value="" placeholder="username@example.com">
+					<input id="user-email" type="email" name="user-email" value="" placeholder="username@example.com" required="required">
 				</label>
 				<label>
 					<div>
 						Subject
 					</div>
-					<input type="text" name="subject" value="" placeholder="A short description about the matter">
+					<input id="subject" type="text" name="subject" value="" placeholder="A short description about the matter" required="required">
 				</label>
 				<label>
 					<div>
 						Message
 					</div>
-					<textarea name="message"></textarea>
+					<textarea id="message" name="message" required="required"></textarea>
 				</label>
 				<div>
-					<input type="submit" name="submit" value="Submit">		
+					<input id="submit-btn" type="submit" name="submit" value="Submit">		
 				</div>
 				
 			</form>	
@@ -71,5 +71,6 @@
 			&copy;2018 All rights reserved - Muhammed Salman Shamsi	
 		</div>
 	</footer>
+	<script type="text/javascript" src="js/validate.js"></script>
 </body>
 </html>

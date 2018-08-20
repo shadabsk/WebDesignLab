@@ -21,6 +21,7 @@ header > nav ul li > a{
 main{
 	margin: 10px;
 }
+
 footer{
 	text-align: center;
 	background-color: #333333;
@@ -29,7 +30,6 @@ footer{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-
 }
 .contact-form,.social-media{
 	position: relative;
@@ -50,7 +50,7 @@ footer{
 	border-radius: 50%;
 	border: 2px dotted black;
 }
-.contact-form h3,.social-media h3{
+.contact-form h3,.social-media h3,.gallery h1{
 	text-align: center;
 }
 .social-media i{
@@ -78,4 +78,33 @@ footer{
 .contact-form input[type="submit"]:hover{
 	opacity: 0.8;
 	color: #fafafa;
+	background-color: black;
 }
+
+.gallery figure img{
+	width:200px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+.gallery{
+	text-align: center;
+}
+.gallery figure{
+	display: inline-block;
+	border: 1px solid black;
+	position: relative;
+	/*float: left;*/
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+	font-style: italic;
+	
+}/*
+.clearfix::after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+*/
