@@ -12,6 +12,9 @@
             table tr:nth-child(odd){
                 background-color: yellow;
             }
+            table tr:nth-child(even){
+                background-color: green;
+            }
         </style>
     </head>
     <body>
@@ -38,6 +41,7 @@ if($_POST){
         if(!$link){
             echo '<br>Unable to connect to Database.'
             .mysqli_connect_error();
+            die('I am exiting');
         }
         $query="Insert into Students values ('$rollno','$name','$gender',"
                 . "'$address','$dob',"
@@ -59,12 +63,10 @@ if($_POST){
         else{
             ?>
             <table>
-                <?php
-            while ($row = mysqli_fetch_array($result)) {
-                
-            
+            <?php
+            while ($row = mysqli_fetch_array($result)) {           
         
-     ?>
+            ?>
             <tr>
                 <td>Roll No</td>
                 <td><?php echo $row['rollno'];?></td>
@@ -95,11 +97,11 @@ if($_POST){
             </tr>
             <tr>
                 <td>Department</td>
-                <td><?php echo $row[dept];?></td>
+                <td><?php echo $row['dept'];?></td>
             </tr>
             <tr>
                 <td>Batch</td>
-                <td><?php echo $row[batch];?></td>
+                <td><?php echo $row['batch'];?></td>
             </tr>
         
 <?php        
@@ -110,11 +112,11 @@ if($_POST){
   }
    else{
        echo "<span>Something is Missing!</span>";
-       header('Refresh:2, url=registration.html');
+       header('Refresh:2, url= ../registration.html');
    }
 }
 else{
-    header('Refresh:0, url=registration.html');
+    header('Refresh:0, url= ../registration.html');
 }
 ?>
     </body>
