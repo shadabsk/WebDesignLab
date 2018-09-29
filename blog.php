@@ -18,10 +18,10 @@ session_start();
             }
             if(isset($_SESSION['user']))
             {
-                echo "<h1>Welcome $_SESSION[user]!</h1>"
-                . "<b>College :</b> $_SESSION[college]<br>"
-                . "<b>Class : </b> $_SESSION[class]<br>"
-                . "<b>Batch : </b> $_SESSION[batch]<br>";
+                echo "<h1>Welcome $_SESSION['user']!</h1>"
+                . "<b>College :</b> $_SESSION['college']<br>"
+                . "<b>Class : </b> $_SESSION['class']<br>"
+                . "<b>Batch : </b> $_SESSION['batch']<br>";
     
                 echo "<br>"
                 . "<form method='post' action='blog.php'>"

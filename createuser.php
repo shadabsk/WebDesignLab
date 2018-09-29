@@ -2,9 +2,9 @@
 <html>
     <head>
         <title>Muhammed Salman: A web Developer</title>
-            <link rel="stylesheet" type="text/css" href="css/style.css" />
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
 <body>
     <header>
@@ -63,8 +63,6 @@
                 <input class="form-control" type="password" id="cpass" placeholder="Repeat Password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" name="cpass" required><br><span id="cpasserr"></span>
             </fieldset>
               
-            <input type="hidden" name="usertype" id="usertype" value="1" required>
-              
             <input type="submit" class="btn btn-primary" value="Create Account">
     </form><br><br>
 </div>
@@ -73,6 +71,7 @@
             &copy;2018 All rights reserved - Muhammed Salman Shamsi 
         </div>
     </footer>
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
     <script src="js/misc.js" type="text/javascript"></script>
 </body>
 </html>
