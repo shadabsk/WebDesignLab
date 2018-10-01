@@ -1,5 +1,5 @@
 @extends('template')
-@section('title','My Resume')
+@section('title','Gallery')
 
 @section('navbar')
     @include('partials.navbar')
