@@ -33,6 +33,9 @@
 			text-align: center;
 			margin-bottom: 10px;
 		}
+		#status{
+			
+		}
 		.error{
 			position: fixed;
 			display: block;
@@ -49,7 +52,7 @@
 		}
 	</style>
 </head>
-
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <body>
 	<?php
 		if ($_POST)
@@ -58,7 +61,13 @@
 			$pass=$_POST['pass'];
 			if($username=="salman" && $pass=="12345")
 			{
-				echo '<div class="suc" id=div1>Login Successful!You Will be redirected to blog page</div>';
+				?>
+				<script>
+				$(function () {
+					$('#status').html('<center>Login Successful!Redirecting to blog page</center>').fadeIn().delay(2000).fadeOut();
+				});
+				</script>
+			<?php
 				$_SESSION['user']=$username;
 				$_SESSION['college']="AIKTC";
 				$_SESSION['class']="TE";
@@ -67,7 +76,13 @@
 			}
 			else
 			{
-				echo '<div class="error" id=div1> Incorrect username or password!</div>';
+				?>
+				<script>
+				$(function () {
+					$('#status').html('<center>Incorrect username or password!</center>').fadeIn().delay(2000).fadeOut();
+				});
+				</script>
+			<?php
 				
 			}
 		}
@@ -78,9 +93,12 @@
 			<input type="text" name="username" id="username" placeholder="Username" required="required" />
 			<input type="password" name="pass" id="pass" placeholder="Passsword" required="required" />
 			<input type="submit" id="submit" value="Log In" />
+			<div id='status'>
+				
+			</div>
 		</div>
 	</form>
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	
 	<script>
 		$(document).ready(function() { 
 			setTimeout(function() { 
