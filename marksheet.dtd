@@ -1,9 +1,9 @@
 <!ELEMENT marksheet (course+)>
-<!ELEMENT course (courseid,title,TH,IA,ORPR,TW,total)>
+<!ELEMENT course (courseid,title,CRD,EDORPR,TW,OE,total)>
 <!ELEMENT courseid (#CDATA)>
 <!ELEMENT title (#CDATA)>
-<!ELEMENT TH (#PCDATA)>
-<!ELEMENT IA (#PCDATA)>
-<!ELEMENT ORPR (#PCDATA)>
+<!ELEMENT CRD (#PCDATA)>
+<!ELEMENT EDORPR (#PCDATA)>
 <!ELEMENT TW (#PCDATA)>
+<!ELEMENT OE (#PCDATA)>
 <!ELEMENT total (#PCDATA)>
