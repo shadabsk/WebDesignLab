@@ -3,23 +3,32 @@
     <head>
         <title>Your Registration Info</title>
         <style>
-            table{
-                border: 2px solid black;
-            }
-            table td{
-                padding: 2px;
-            }
-            table tr:nth-child(odd){
-                background-color: yellow;
-            }
-            table tr:nth-child(even){
-                background-color: green;
-            }
-        </style>
+        table{
+            border: 2px solid black;
+            margin: 0 auto;
+            margin-top: 5% ;
+            width: 50%;
+        }
+        table td{
+            padding: 2px;
+            width:60%;
+            height: 20pt;
+        }
+        table tr:nth-child(odd){
+            background-color: #18C1A8;
+        }
+        table tr.heading{
+            text-align: center;
+            height: 40pt;
+        }
+        h4.heading{
+            text-align: center;
+            height: 40pt;
+        }
+    </style>
     </head>
     <body>
 <?php
-
 require_once 'functions.php';
 if($_POST){
     $rollno=  fix_rollno($_POST['rollno']);
@@ -35,7 +44,6 @@ if($_POST){
             !empty($address)&&!empty($dob)&&!empty($sem)&&
             !empty($semail)&&!empty($dept)&&!empty($batch)){
         
-
 //Inserting data in the database
         $link=mysqli_connect('localhost','root','root','AIKTC');
         if(!$link){
@@ -67,6 +75,9 @@ if($_POST){
             while ($row = mysqli_fetch_array($result)) {           
         
             ?>
+            <tr class="heading">
+                <th colspan="2">Student registration details</th>   
+            </tr>
             <tr>
                 <td>Roll No</td>
                 <td><?php echo $row['rollno'];?></td>

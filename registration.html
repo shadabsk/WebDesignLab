@@ -3,6 +3,9 @@
 <head>
 	<title>Student Registration</title>
     <style>
+		*{
+			margin: 1%;
+		}
     	.form-input{
     		display: block;
     	}
@@ -12,39 +15,83 @@
     	#add{
     		display: block;
     	}
+    	h1{
+			text-align: center;
+		}
+		input[type="text"]{
+			border-radius: 6px;
+			height: 20pt;
+			width: 6%;
+			border: 1px solid black;
+		}
+		#sname{
+			border-radius: 6px;
+			height: 20pt;
+			width: 26%;
+		}
+		#address{
+			border: 1px solid black;
+			border-radius: 10px 4px 10px 4px;
+			height: 40pt;
+			width: 26%
+						
+		}
+		#dob,#sem,#dept,#batch,input[type="email"]{
+			border-radius: 6px;
+			height: 20pt;
+			width: 12%;
+			margin-bottom: 0;
+			border: 1px solid black;
+		}
+		input[type="email"]{
+			width:26%;
+		}
+		#semail,#dept,#sem,#batch{
+			display: inline-block;
+		}
+		
+		#ssubmit{
+			width: 100px;
+			height:	20px;
+			background-color: #18C1A8;
+			color: #ffffff; 
+			border-radius: 4px;
+			border: none;
+			margin-left:	46%;
+		}
     </style>
 </head>
 <body>
 	<h1>
-		Welcome To AIKTC
+		Welcome To AIKTC	
 	</h1>
-	<form method="post" action="PHP/printdb.php">
+	<form method="post" action="printdb.php">
 	  <fieldset>
 	  	<legend>Personal Information</legend>
-
+		
 		<label for="rollno">Roll No: </label>
-		<input  type="text" name="rollno" id="rollno" class="form-input" required="required" value=""/>
-
+		<input  type="text" name="rollno" id="rollno" class="form-input" value=""/>
+		
 
 		<label for="sname">Name: </label>
 		<input type="text" name="sname" id="sname" class="form-input" required="required"/>
-
+		
 
 		<label>Gender: </label>
 		<input type="radio" name="gender" id="male" value="Male" class="form-input" required="required"/>
 		<label for="male">Male</label>
 		<input type="radio" name="gender" id="female" value="Female" class="form-input" required="required"/>
 		<label for="female">Female</label>
-
+		
 
 		<label for="address" id="add">Address: </label>
 		<textarea cols="15" rows="4" name="address" id="address" class="form-input" required="required"></textarea>
-
+		
 
 
 		<label for="dob">Date of Birth: </label>
 		<input type="date" name="dob" id="dob" class="form-input" required="required"/>
-
+		
 
 	 </fieldset>
 
@@ -62,12 +109,12 @@
 			<option value="7">VII</option>
 			<option value="8">VIII</option>
 		</select>
-
+		
 
 
 		<label for="email">Email: </label>
 		<input type="email" name="semail" id="semail" class="form-input" required="required"/>
-
+		
 
 		<label for="dept">Department:</label>
 		<select name="dept" id="dept" class="form-input" required="required">
@@ -78,7 +125,7 @@
 			<option value="EE">Electrical</option>
 			<option value="EXTC">Electronics & Telecommunications</option>
 		</select>
-
+		
 
 		<label for="batch">Batch: </label>
 		<select name="batch" id="batch" class="form-input" required="required">
@@ -88,10 +135,10 @@
 			<option value="B3">Batch 3</option>
 			<option value="B4">Batch 4</option>
 		</select>
-
+		
 	 </fieldset>
 		<input type="submit" id="ssubmit" class="form-button" value="Submit Form">
-	</form>
+	</form>	
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
